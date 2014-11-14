@@ -119,20 +119,22 @@ li.apps:hover {
   color: #fff;
   width: 70px;
   height:30px;
-  background-color: #4485F4;
+  background-color: #4485f4;
   border: none;
   border-radius: 3px;
   font-weight: bolder;
+  outline: 0;
 }
 
 .signin_button:hover {
   text-decoration: none;
   border: none;
-  box-shadow: 0 .04em #4485F4;
+  box-shadow: 0 .04em #4485f4;
 }
 
 .signin_button:active {
   text-decoration: none;
+  background-color: #2d6bd4;
 }
 
 
@@ -151,13 +153,13 @@ CONTENT
 input[type="text"] {
   width: 83%;
   height: 29px;
-  border: 1px solid #DBD8D8;
+  border: 1px solid #a29f9f;
   margin-top: 18px;
   outline: 0;
 }
 
 input[type="text"]:hover {
-  border: 1px solid #BBB4B4;
+  border: 1px solid #a7a0a0;
 }
 
 input[type="text"]:focus {
@@ -188,8 +190,9 @@ input[type="text"]:focus {
   font-weight: bolder;
   color: #2a2a2a;
   background-color: #f3f3f3;
-  border: 1px solid #D2CFCF;
+  border: 1px solid #d2cfcf;
   border-radius: 3px;
+  outline: 0;
 }
 
 .search_button {
@@ -199,11 +202,11 @@ input[type="text"]:focus {
 
 .search_button:hover, .feeling_lucky_button:hover {
   box-shadow: 0 .04em #777;
-  border: 1px solid #CAC8C8;
+  border: 1px solid #cac8c8;
 }
 
-.search_button:active, .feeling_lucky_button:active {
-  border: 1px solid #fff;
+.search_button:focus, .feeling_lucky_button:focus {
+  border: 1px solid #6565ff;
 }
 
 .feeling_lucky_button {
@@ -243,7 +246,7 @@ footer {
 }
 
 footer a {
-  color: #5C5B5B;
+  color: #5c5b5b;
 }
 
 footer a:hover {
